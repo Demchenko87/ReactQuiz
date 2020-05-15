@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc383c72-14e7-4dbe-84b9-e5aa7d3b97fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/axios/axios-quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/rootReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/QuizList/QuizList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizList/QuizList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +43,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/actions" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store/actions" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -72,7 +93,7 @@
       <workItem from="1588400260751" duration="1296000" />
       <workItem from="1588587468167" duration="11836000" />
       <workItem from="1588665534355" duration="12479000" />
-      <workItem from="1588926085601" duration="713000" />
+      <workItem from="1588926085601" duration="13656000" />
     </task>
     <servers />
   </component>
@@ -80,44 +101,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="420" y="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588927829686">
+    <state x="0" y="155" key="#ESLint" timestamp="1589460319089">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="0" y="155" key="#ESLint/0.23.1440.801@0.23.1440.801" timestamp="1589460319089" />
+    <state x="420" y="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589446171155">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="420" y="405" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.801@0.23.1440.801" timestamp="1589446171155" />
+    <state x="420" y="406" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.804@0.23.1440.804" timestamp="1588927829686" />
+    <state x="916" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589448744138">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="916" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.801@0.23.1440.801" timestamp="1589448744138" />
+    <state x="1731" y="445" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1588589939860" />
+    <state width="1398" height="101" key="GridCell.Tab.0.bottom" timestamp="1589445374152">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state x="420" y="406" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.804@0.23.1440.804" timestamp="1588927829686" />
-    <state x="1731" y="445" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588589939860">
-      <screen x="0" y="23" width="2560" height="1337" />
-    </state>
-    <state x="1731" y="445" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1588589939860" />
-    <state width="1398" height="101" key="GridCell.Tab.0.bottom" timestamp="1588925870538">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
     <state width="1228" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1588398256391" />
-    <state width="1398" height="101" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1588925870538" />
-    <state width="1398" height="101" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1588848238753" />
+    <state width="1398" height="101" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1589376526765" />
+    <state width="1398" height="101" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1589445374152" />
     <state width="1398" height="105" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1588670815780" />
     <state width="1007" height="423" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588600638130" />
-    <state width="1398" height="101" key="GridCell.Tab.0.center" timestamp="1588925870534">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="101" key="GridCell.Tab.0.center" timestamp="1589445374149">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1228" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1588398256390" />
-    <state width="1398" height="101" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1588925870534" />
-    <state width="1398" height="101" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1588848238751" />
+    <state width="1398" height="101" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1589376526696" />
+    <state width="1398" height="101" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1589445374149" />
     <state width="1398" height="105" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1588670815780" />
     <state width="1007" height="423" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588600638130" />
-    <state width="1398" height="101" key="GridCell.Tab.0.left" timestamp="1588925870531">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="101" key="GridCell.Tab.0.left" timestamp="1589445374147">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1228" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1588398256389" />
-    <state width="1398" height="101" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1588925870531" />
-    <state width="1398" height="101" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1588848238747" />
+    <state width="1398" height="101" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1589376526683" />
+    <state width="1398" height="101" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1589445374147" />
     <state width="1398" height="105" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1588670815779" />
     <state width="1007" height="423" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588600638129" />
-    <state width="1398" height="101" key="GridCell.Tab.0.right" timestamp="1588925870535">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="101" key="GridCell.Tab.0.right" timestamp="1589445374150">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1228" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1588398256390" />
-    <state width="1398" height="101" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1588925870535" />
-    <state width="1398" height="101" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1588848238751" />
+    <state width="1398" height="101" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1589376526740" />
+    <state width="1398" height="101" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1589445374150" />
     <state width="1398" height="105" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1588670815780" />
     <state width="1007" height="423" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588600638130" />
     <state x="1434" y="359" key="SettingsEditor" timestamp="1588300590218">
@@ -136,6 +163,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.js</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/store/actions/quiz.js</url>
+          <line>44</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
